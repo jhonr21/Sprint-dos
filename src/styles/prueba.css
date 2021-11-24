@@ -1,4 +1,56 @@
 .link{
-text-decoration: none;
+    text-decoration: none;
+    letter-spacing: 0px;
+    padding-right: 10%;
+    margin-left: 4px;
+    margin-top: 43px;
+}
 
+div.tarjeta{
+    text-align: center;
+    }
+
+div#container{
+    background-color: #F2F2F2;
+    width: 435px;
+    margin: 0 auto;
+    height: 62rem;
+}
+
+div.header{
+text-align: center;
+}
+
+p {
+    width: 216px;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+    margin-left: 1rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+}
+img#imagen{
+    margin: 0 auto;
+    margin-left: -2rem;
+}
+
+h1#sabores{
+    margin-top: 2rem;
+}
+
+h3#contador{
+    margin-top: 1rem;
+}
+
+
+button#comprar{
+    margin-top: 2rem;
+    background-color: #FA4A0C;
+    height: 4rem;
+    width: 18rem;
+    margin: 0 auto;
+    margin-left: -1rem
 }

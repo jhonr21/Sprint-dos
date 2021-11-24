@@ -1,8 +1,5 @@
 import { Link } from "react-router-dom";
 import {
-  Descripciontarjeta,
-  Imagenguajolota,
-  Precio,
   Tarjetasestilo,
 } from "../../styles/template";
 import '../../styles/prueba.css';
@@ -32,9 +29,9 @@ export function Guajolotas() {
     return
   } else {
     return (
-      <div>
+      <div id='container'>
         <Logo /><LogoCarrito /><Banner /><Busqueda /><Navbar />    
-        <div>
+        <div id=''>
           {
             data.map((dat) => (
               <Tarjetasestilo key={dat.id} >

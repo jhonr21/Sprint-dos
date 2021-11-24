@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { Navstyle } from '../styles/template';
+import '../../src/styles/prueba.css';
 
 export const Navbar = () => {
     return (

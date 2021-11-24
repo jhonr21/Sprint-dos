@@ -27,7 +27,7 @@ export function Tamales() {
     return
   } else {
     return (
-      <div>
+      <div id='container'>
         <Logo /><LogoCarrito /><Banner /><Busqueda /><Navbar />    
         <div>
           {

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRouter from './routes/AppRouter';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

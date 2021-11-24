@@ -39,7 +39,7 @@ export const Navstyle = styled.nav`
 }
 
 .header nav{
-    display: inline-block;
+    display: table;
     justify-content: center;
     padding-left:10%;
     padding-right:10%; 
@@ -47,7 +47,7 @@ export const Navstyle = styled.nav`
 
 .link{
     text-decoration: none;
-    letter-spacing: 5px;
+    margin: auto 0;
     padding-right:10%; 
 }
 
@@ -58,7 +58,7 @@ export const Navstyle = styled.nav`
 `
 
 export const Guajolotastyle = styled.div`
-display: flex;
+display: table;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
@@ -79,6 +79,7 @@ export const Busquedastyle = styled.input`
     font-size: 1rem;
     padding: 0.5rem 1rem;
     color: black;
+   
 `
 export const Botonbuscar = styled.button`
  background-color: white;
@@ -88,19 +89,26 @@ export const Botonbuscar = styled.button`
     font-size: 1rem;
     padding: 0.5rem 1rem;
     color: black;
+    margin-left: 1rem;
+
+
 `
 
 export const Formulariostyle = styled.form`
    padding: 20px;
+   text-align: center;
 `
 
 export const Imagenguajolota = styled.img`
     width: 50px;
   height: 50px;
+  margin-left: -12rem;
 `
 
 export const Precio = styled.p`
-color:tomato;
+color: tomato;
+margin-top: -5rem;
+padding: 4rem;
 `
 
 export const Tarjetasestilo = styled.div`
@@ -109,7 +117,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 16px;
-
+margin: 0 auto;
 position: static;
 width: 312px;
 height: 112px;
@@ -127,7 +135,9 @@ border-radius: 20px;
 flex: none;
 order: 4;
 flex-grow: 0;
-margin: 8px 0px;
+margin: 0 auto;
+margin-top: 1rem;
+
 `
 
 export const Descripciontarjeta = styled.div`

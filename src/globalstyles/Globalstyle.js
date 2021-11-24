@@ -3,10 +3,10 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body {
     position: relative;
-width: 360px;
+width: 424px;
 height: 1128px;
 
-background: #F2F2F2;
+background: #98B5CD;
 margin: 0 auto;
   }
 `;
